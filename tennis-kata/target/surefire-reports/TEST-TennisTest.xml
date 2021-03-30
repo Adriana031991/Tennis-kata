@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="99" failures="0" name="TennisTest" time="0.062" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\anda0\Documents\SOFKA-U\introduccion al desarrollo de software\EjercicioKata1\tennis-kata"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\anda0\Documents\SOFKA-U\introduccion al desarrollo de software\EjercicioKata1\tennis-kata"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\anda0\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.10_9\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Amazon Corretto\jdk11.0.10_9\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\anda0\AppData\Local\Microsoft\WindowsApps;C:\Users\anda0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anda0\AppData\Roaming\npm;C:\xampp\php;C:\Program Files\Java\jdk-15.0.2\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\anda0"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="anda0"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.3 test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[0]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[0]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[0]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[1]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[1]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[1]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[2]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[2]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[2]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[3]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[3]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[3]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[4]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[4]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[4]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[5]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[5]" time="0.015"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[5]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[6]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[6]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[6]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[7]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[7]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[7]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[8]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[8]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[8]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[9]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[9]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[9]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[10]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[10]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[10]" time="0.016"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[11]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[11]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[11]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[12]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[12]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[12]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[13]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[13]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[13]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[14]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[14]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[14]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[15]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[15]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[15]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[16]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[16]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[16]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[17]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[17]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[17]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[18]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[18]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[18]" time="0.015"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[19]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[19]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[19]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[20]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[20]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[20]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[21]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[21]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[21]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[22]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[22]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[22]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[23]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[23]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[23]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[24]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[24]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[24]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[25]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[25]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[25]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[26]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[26]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[26]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[27]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[27]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[27]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[28]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[28]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[28]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[29]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[29]" time="0.016"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[29]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[30]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[30]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[30]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[31]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[31]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[31]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame1[32]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame2[32]" time="0"/>
+  <testcase classname="TennisTest" name="checkAllScoresTennisGame3[32]" time="0"/>
+</testsuite>
