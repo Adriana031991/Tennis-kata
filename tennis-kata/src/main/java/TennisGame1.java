@@ -52,8 +52,9 @@ public class TennisGame1 implements TennisGame {
                 score += "-";
                 tempScore = playerScore2;
             }
+            score += tempScoreGame(tempScore);
 
-                switch (tempScore) {
+                /*switch (tempScore) {
                     case 0:
                         score += "Love";
                         break;
@@ -66,14 +67,15 @@ public class TennisGame1 implements TennisGame {
                     case 3:
                         score += "Forty";
                         break;
-                }
+                }*/
         }
             return score;
 
     }
 
-    /*private String tempScoreGame() {
-        Map<Integer, String> tempScoregame = new HashMap<>();
+    private String tempScoreGame(Integer tempScore) {
+
+        Map<Integer, String> tempScoregame = new HashMap<Integer, String>();
 
         tempScoregame.put(0,"Love");
         tempScoregame.put(1,"Fifteen");
@@ -84,7 +86,7 @@ public class TennisGame1 implements TennisGame {
         score = tempScoregame.get(tempScore);
 
         return score;
-    }*/
+    }
 
     private void pointsPlayers() {
         switch (playerScore1) {
